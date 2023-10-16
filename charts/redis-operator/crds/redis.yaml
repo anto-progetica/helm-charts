@@ -8249,7 +8249,7 @@ spec:
     subresources:
       status: {}
   conversion:
-    strategy: Webhook
+    strategy: None
     webhook:
       conversionReviewVersions: ["v1beta1","v1beta2"]
       clientConfig:
